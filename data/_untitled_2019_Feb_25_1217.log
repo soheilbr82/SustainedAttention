@@ -1,0 +1,360 @@
+8.5061 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0DC2F310>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1C9AF150>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=1, size=array([1920, 1200]), stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.5061 	EXP 	window1: recordFrameIntervals = False
+8.6719 	EXP 	window1: recordFrameIntervals = True
+8.8558 	EXP 	window1: recordFrameIntervals = False
+9.2265 	EXP 	Created polygon = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([0., 0., 0.]), lineWidth=1, name='polygon', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='norm', vertices=ndarray(...), win=Window(...))
+9.4292 	EXP 	Created descriptionText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.12, italic=False, languageStyle='LTR', name='descriptionText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+9.4298 	EXP 	Created instructionScreen = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([0., 0., 0.]), lineWidth=1, name='instructionScreen', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='norm', vertices=ndarray(...), win=Window(...))
+9.4744 	EXP 	Created instructionText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instructionText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+9.4750 	EXP 	Created preTrialScreen = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([0., 0., 0.]), lineWidth=1, name='preTrialScreen', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='norm', vertices=ndarray(...), win=Window(...))
+9.4756 	EXP 	Created preTrialText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='preTrialText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units='norm', win=Window(...), wrapWidth=1)
+9.4822 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+9.4828 	EXP 	Created TrialScreen = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-1.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([0., 0., 0.]), lineWidth=1, name='TrialScreen', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='norm', vertices=ndarray(...), win=Window(...))
+9.5053 	EXP 	Created trialImage1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='trialImage1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='norm', win=Window(...))
+9.5076 	EXP 	Created trialImage2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='trialImage2', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='norm', win=Window(...))
+9.5129 	EXP 	Created trialLeftText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='trialLeftText', opacity=1.0, ori=270, pos=array([-0.8,  0. ]), rgb=array([255., 255., 255.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+9.5173 	EXP 	Created trialRightText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='trialRightText', opacity=1.0, ori=90, pos=array([0.8, 0. ]), rgb=array([255., 255., 255.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+9.5179 	EXP 	Created interTrialScreen = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([0., 0., 0.]), lineWidth=1, name='interTrialScreen', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='norm', vertices=ndarray(...), win=Window(...))
+9.5187 	EXP 	Created whiteScreen_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-1.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='whiteScreen_2', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='norm', vertices=ndarray(...), win=Window(...))
+9.5411 	EXP 	Created interTrialText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='interTrialText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+9.5418 	EXP 	Created interBlockScreen = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([0., 0., 0.]), lineWidth=1, name='interBlockScreen', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='norm', vertices=ndarray(...), win=Window(...))
+9.5461 	EXP 	Created interBlockText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='interBlockText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='norm', win=Window(...), wrapWidth=1)
+9.5470 	EXP 	Created polygon_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([0., 0., 0.]), lineWidth=1, name='polygon_2', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='norm', vertices=ndarray(...), win=Window(...))
+9.5587 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Thank you for your participation!', units='norm', win=Window(...), wrapWidth=1)
+9.5658 	EXP 	polygon: autoDraw = True
+9.5658 	EXP 	descriptionText: autoDraw = True
+197.3801 	DATA 	Mouse: Left button down, pos=(390,503)
+197.5056 	DATA 	Mouse:  Left button up, pos=(390,503)
+197.9378 	DATA 	Keypress: space
+197.9561 	EXP 	polygon: autoDraw = False
+197.9561 	EXP 	descriptionText: autoDraw = False
+197.9561 	EXP 	instructionText: pos = array([0., 0.])
+197.9561 	EXP 	instructionScreen: autoDraw = True
+197.9561 	EXP 	instructionText: autoDraw = True
+209.1357 	DATA 	Keypress: space
+209.1652 	EXP 	instructionScreen: autoDraw = False
+209.1652 	EXP 	instructionText: autoDraw = False
+209.1652 	EXP 	preTrialScreen: autoDraw = True
+209.1652 	EXP 	preTrialText: autoDraw = True
+212.1354 	EXP 	Created sequence: sequential, trialTypes=1, nReps=8, seed=None
+212.1356 	EXP 	New trial (rep=0, index=0): None
+213.1010 	EXP 	preTrialScreen: autoDraw = False
+213.1010 	EXP 	preTrialText: autoDraw = False
+213.1010 	EXP 	preTrialScreen: autoDraw = False
+213.1010 	EXP 	preTrialText: autoDraw = False
+213.1010 	EXP 	text_2: text = 'Press ` for Male\n\nPress - for Female'
+213.1010 	EXP 	text_2: autoDraw = True
+216.0555 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+216.0556 	EXP 	New trial (rep=0, index=0): None
+216.2217 	EXP 	text_2: autoDraw = False
+216.2217 	EXP 	text_2: autoDraw = False
+216.2217 	EXP 	trialImage1: color = 'white (named)'
+216.2217 	EXP 	trialImage1: opacity = 1.0
+216.2217 	EXP 	trialImage1: size = array([1.5, 1.5])
+216.2217 	EXP 	trialImage1: image = <PIL.Image.Image image mode=LA size=1000x800 at 0x13733F90>
+216.2217 	EXP 	trialImage2: size = array([1.5, 1.5])
+216.2217 	EXP 	trialImage2: image = <PIL.Image.Image image mode=LA size=1000x800 at 0x13733A90>
+216.2217 	EXP 	trialLeftText: text = 'Male'
+216.2217 	EXP 	trialRightText: text = 'Female'
+216.2217 	EXP 	TrialScreen: autoDraw = True
+216.2217 	EXP 	trialImage1: autoDraw = True
+216.2217 	EXP 	trialImage2: autoDraw = True
+216.2217 	EXP 	trialLeftText: autoDraw = True
+216.2217 	EXP 	trialRightText: autoDraw = True
+217.0741 	EXP 	TrialScreen: autoDraw = False
+217.0741 	EXP 	trialImage1: autoDraw = False
+217.0741 	EXP 	trialImage2: autoDraw = False
+217.0741 	EXP 	trialLeftText: autoDraw = False
+217.0741 	EXP 	trialRightText: autoDraw = False
+217.0741 	EXP 	TrialScreen: autoDraw = False
+217.0741 	EXP 	trialImage1: autoDraw = False
+217.0741 	EXP 	trialImage2: autoDraw = False
+217.0741 	EXP 	trialLeftText: autoDraw = False
+217.0741 	EXP 	trialRightText: autoDraw = False
+217.0741 	EXP 	whiteScreen_2: size = array([1.5, 1.5])
+217.0741 	EXP 	interTrialText: text = '+'
+217.0741 	EXP 	interTrialScreen: autoDraw = True
+217.0741 	EXP 	whiteScreen_2: autoDraw = True
+217.0741 	EXP 	interTrialText: autoDraw = True
+219.6420 	EXP 	New trial (rep=1, index=0): None
+219.7436 	EXP 	interTrialScreen: autoDraw = False
+219.7436 	EXP 	whiteScreen_2: autoDraw = False
+219.7436 	EXP 	interTrialText: autoDraw = False
+219.7436 	EXP 	interTrialScreen: autoDraw = False
+219.7436 	EXP 	whiteScreen_2: autoDraw = False
+219.7436 	EXP 	interTrialText: autoDraw = False
+219.7436 	EXP 	trialImage1: color = 'white (named)'
+219.7436 	EXP 	trialImage1: opacity = 1.0
+219.7436 	EXP 	trialImage1: size = array([1.5, 1.5])
+219.7436 	EXP 	trialImage1: image = <PIL.Image.Image image mode=LA size=1000x800 at 0x13733EF0>
+219.7436 	EXP 	trialImage2: size = array([1.5, 1.5])
+219.7436 	EXP 	trialImage2: image = <PIL.Image.Image image mode=LA size=1000x800 at 0x1241A10>
+219.7436 	EXP 	trialLeftText: text = 'Male'
+219.7436 	EXP 	trialRightText: text = 'Female'
+219.7436 	EXP 	TrialScreen: autoDraw = True
+219.7436 	EXP 	trialImage1: autoDraw = True
+219.7436 	EXP 	trialImage2: autoDraw = True
+219.7436 	EXP 	trialLeftText: autoDraw = True
+219.7436 	EXP 	trialRightText: autoDraw = True
+220.6598 	EXP 	TrialScreen: autoDraw = False
+220.6598 	EXP 	trialImage1: autoDraw = False
+220.6598 	EXP 	trialImage2: autoDraw = False
+220.6598 	EXP 	trialLeftText: autoDraw = False
+220.6598 	EXP 	trialRightText: autoDraw = False
+220.6598 	EXP 	TrialScreen: autoDraw = False
+220.6598 	EXP 	trialImage1: autoDraw = False
+220.6598 	EXP 	trialImage2: autoDraw = False
+220.6598 	EXP 	trialLeftText: autoDraw = False
+220.6598 	EXP 	trialRightText: autoDraw = False
+220.6598 	EXP 	whiteScreen_2: size = array([1.5, 1.5])
+220.6598 	EXP 	interTrialText: text = '+'
+220.6598 	EXP 	interTrialScreen: autoDraw = True
+220.6598 	EXP 	whiteScreen_2: autoDraw = True
+220.6598 	EXP 	interTrialText: autoDraw = True
+222.7785 	EXP 	New trial (rep=2, index=0): None
+222.8324 	EXP 	interTrialScreen: autoDraw = False
+222.8324 	EXP 	whiteScreen_2: autoDraw = False
+222.8324 	EXP 	interTrialText: autoDraw = False
+222.8324 	EXP 	interTrialScreen: autoDraw = False
+222.8324 	EXP 	whiteScreen_2: autoDraw = False
+222.8324 	EXP 	interTrialText: autoDraw = False
+222.8324 	EXP 	trialImage1: color = 'white (named)'
+222.8324 	EXP 	trialImage1: opacity = 1.0
+222.8324 	EXP 	trialImage1: size = array([1.5, 1.5])
+222.8324 	EXP 	trialImage1: image = <PIL.Image.Image image mode=LA size=1000x800 at 0x13733750>
+222.8324 	EXP 	trialImage2: size = array([1.5, 1.5])
+222.8324 	EXP 	trialImage2: image = <PIL.Image.Image image mode=LA size=1000x800 at 0x1241A50>
+222.8324 	EXP 	trialLeftText: text = 'Male'
+222.8324 	EXP 	trialRightText: text = 'Female'
+222.8324 	EXP 	TrialScreen: autoDraw = True
+222.8324 	EXP 	trialImage1: autoDraw = True
+222.8324 	EXP 	trialImage2: autoDraw = True
+222.8324 	EXP 	trialLeftText: autoDraw = True
+222.8324 	EXP 	trialRightText: autoDraw = True
+223.7943 	EXP 	TrialScreen: autoDraw = False
+223.7943 	EXP 	trialImage1: autoDraw = False
+223.7943 	EXP 	trialImage2: autoDraw = False
+223.7943 	EXP 	trialLeftText: autoDraw = False
+223.7943 	EXP 	trialRightText: autoDraw = False
+223.7943 	EXP 	TrialScreen: autoDraw = False
+223.7943 	EXP 	trialImage1: autoDraw = False
+223.7943 	EXP 	trialImage2: autoDraw = False
+223.7943 	EXP 	trialLeftText: autoDraw = False
+223.7943 	EXP 	trialRightText: autoDraw = False
+223.7943 	EXP 	whiteScreen_2: size = array([1.5, 1.5])
+223.7943 	EXP 	interTrialText: text = '+'
+223.7943 	EXP 	interTrialScreen: autoDraw = True
+223.7943 	EXP 	whiteScreen_2: autoDraw = True
+223.7943 	EXP 	interTrialText: autoDraw = True
+225.8803 	EXP 	New trial (rep=3, index=0): None
+225.9365 	EXP 	interTrialScreen: autoDraw = False
+225.9365 	EXP 	whiteScreen_2: autoDraw = False
+225.9365 	EXP 	interTrialText: autoDraw = False
+225.9365 	EXP 	interTrialScreen: autoDraw = False
+225.9365 	EXP 	whiteScreen_2: autoDraw = False
+225.9365 	EXP 	interTrialText: autoDraw = False
+225.9365 	EXP 	trialImage1: color = 'white (named)'
+225.9365 	EXP 	trialImage1: opacity = 1.0
+225.9365 	EXP 	trialImage1: size = array([1.5, 1.5])
+225.9365 	EXP 	trialImage1: image = <PIL.Image.Image image mode=LA size=1000x800 at 0x13733DB0>
+225.9365 	EXP 	trialImage2: size = array([1.5, 1.5])
+225.9365 	EXP 	trialImage2: image = <PIL.Image.Image image mode=LA size=1000x800 at 0x1241510>
+225.9365 	EXP 	trialLeftText: text = 'Male'
+225.9365 	EXP 	trialRightText: text = 'Female'
+225.9365 	EXP 	TrialScreen: autoDraw = True
+225.9365 	EXP 	trialImage1: autoDraw = True
+225.9365 	EXP 	trialImage2: autoDraw = True
+225.9365 	EXP 	trialLeftText: autoDraw = True
+225.9365 	EXP 	trialRightText: autoDraw = True
+226.8982 	EXP 	TrialScreen: autoDraw = False
+226.8982 	EXP 	trialImage1: autoDraw = False
+226.8982 	EXP 	trialImage2: autoDraw = False
+226.8982 	EXP 	trialLeftText: autoDraw = False
+226.8982 	EXP 	trialRightText: autoDraw = False
+226.8982 	EXP 	TrialScreen: autoDraw = False
+226.8982 	EXP 	trialImage1: autoDraw = False
+226.8982 	EXP 	trialImage2: autoDraw = False
+226.8982 	EXP 	trialLeftText: autoDraw = False
+226.8982 	EXP 	trialRightText: autoDraw = False
+226.8982 	EXP 	whiteScreen_2: size = array([1.5, 1.5])
+226.8982 	EXP 	interTrialText: text = '+'
+226.8982 	EXP 	interTrialScreen: autoDraw = True
+226.8982 	EXP 	whiteScreen_2: autoDraw = True
+226.8982 	EXP 	interTrialText: autoDraw = True
+229.6990 	EXP 	New trial (rep=4, index=0): None
+229.7592 	EXP 	interTrialScreen: autoDraw = False
+229.7592 	EXP 	whiteScreen_2: autoDraw = False
+229.7592 	EXP 	interTrialText: autoDraw = False
+229.7592 	EXP 	interTrialScreen: autoDraw = False
+229.7592 	EXP 	whiteScreen_2: autoDraw = False
+229.7592 	EXP 	interTrialText: autoDraw = False
+229.7592 	EXP 	trialImage1: color = 'white (named)'
+229.7592 	EXP 	trialImage1: opacity = 1.0
+229.7592 	EXP 	trialImage1: size = array([1.5, 1.5])
+229.7592 	EXP 	trialImage1: image = <PIL.Image.Image image mode=LA size=1000x800 at 0x13733970>
+229.7592 	EXP 	trialImage2: size = array([1.5, 1.5])
+229.7592 	EXP 	trialImage2: image = <PIL.Image.Image image mode=LA size=1000x800 at 0x123E090>
+229.7592 	EXP 	trialLeftText: text = 'Male'
+229.7592 	EXP 	trialRightText: text = 'Female'
+229.7592 	EXP 	TrialScreen: autoDraw = True
+229.7592 	EXP 	trialImage1: autoDraw = True
+229.7592 	EXP 	trialImage2: autoDraw = True
+229.7592 	EXP 	trialLeftText: autoDraw = True
+229.7592 	EXP 	trialRightText: autoDraw = True
+230.7184 	EXP 	TrialScreen: autoDraw = False
+230.7184 	EXP 	trialImage1: autoDraw = False
+230.7184 	EXP 	trialImage2: autoDraw = False
+230.7184 	EXP 	trialLeftText: autoDraw = False
+230.7184 	EXP 	trialRightText: autoDraw = False
+230.7184 	EXP 	TrialScreen: autoDraw = False
+230.7184 	EXP 	trialImage1: autoDraw = False
+230.7184 	EXP 	trialImage2: autoDraw = False
+230.7184 	EXP 	trialLeftText: autoDraw = False
+230.7184 	EXP 	trialRightText: autoDraw = False
+230.7184 	EXP 	whiteScreen_2: size = array([1.5, 1.5])
+230.7184 	EXP 	interTrialText: text = '+'
+230.7184 	EXP 	interTrialScreen: autoDraw = True
+230.7184 	EXP 	whiteScreen_2: autoDraw = True
+230.7184 	EXP 	interTrialText: autoDraw = True
+232.8027 	EXP 	New trial (rep=5, index=0): None
+232.8535 	EXP 	interTrialScreen: autoDraw = False
+232.8535 	EXP 	whiteScreen_2: autoDraw = False
+232.8535 	EXP 	interTrialText: autoDraw = False
+232.8535 	EXP 	interTrialScreen: autoDraw = False
+232.8535 	EXP 	whiteScreen_2: autoDraw = False
+232.8535 	EXP 	interTrialText: autoDraw = False
+232.8535 	EXP 	trialImage1: color = 'white (named)'
+232.8535 	EXP 	trialImage1: opacity = 1.0
+232.8535 	EXP 	trialImage1: size = array([1.5, 1.5])
+232.8535 	EXP 	trialImage1: image = <PIL.Image.Image image mode=LA size=1000x800 at 0x13733F10>
+232.8535 	EXP 	trialImage2: size = array([1.5, 1.5])
+232.8535 	EXP 	trialImage2: image = <PIL.Image.Image image mode=LA size=1000x800 at 0x137337F0>
+232.8535 	EXP 	trialLeftText: text = 'Male'
+232.8535 	EXP 	trialRightText: text = 'Female'
+232.8535 	EXP 	TrialScreen: autoDraw = True
+232.8535 	EXP 	trialImage1: autoDraw = True
+232.8535 	EXP 	trialImage2: autoDraw = True
+232.8535 	EXP 	trialLeftText: autoDraw = True
+232.8535 	EXP 	trialRightText: autoDraw = True
+233.8202 	EXP 	TrialScreen: autoDraw = False
+233.8202 	EXP 	trialImage1: autoDraw = False
+233.8202 	EXP 	trialImage2: autoDraw = False
+233.8202 	EXP 	trialLeftText: autoDraw = False
+233.8202 	EXP 	trialRightText: autoDraw = False
+233.8202 	EXP 	TrialScreen: autoDraw = False
+233.8202 	EXP 	trialImage1: autoDraw = False
+233.8202 	EXP 	trialImage2: autoDraw = False
+233.8202 	EXP 	trialLeftText: autoDraw = False
+233.8202 	EXP 	trialRightText: autoDraw = False
+233.8202 	EXP 	whiteScreen_2: size = array([1.5, 1.5])
+233.8202 	EXP 	interTrialText: text = '+'
+233.8202 	EXP 	interTrialScreen: autoDraw = True
+233.8202 	EXP 	whiteScreen_2: autoDraw = True
+233.8202 	EXP 	interTrialText: autoDraw = True
+235.9229 	EXP 	New trial (rep=6, index=0): None
+235.9778 	EXP 	interTrialScreen: autoDraw = False
+235.9778 	EXP 	whiteScreen_2: autoDraw = False
+235.9778 	EXP 	interTrialText: autoDraw = False
+235.9778 	EXP 	interTrialScreen: autoDraw = False
+235.9778 	EXP 	whiteScreen_2: autoDraw = False
+235.9778 	EXP 	interTrialText: autoDraw = False
+235.9778 	EXP 	trialImage1: color = 'white (named)'
+235.9778 	EXP 	trialImage1: opacity = 1.0
+235.9778 	EXP 	trialImage1: size = array([1.5, 1.5])
+235.9778 	EXP 	trialImage1: image = <PIL.Image.Image image mode=LA size=1000x800 at 0x13733950>
+235.9778 	EXP 	trialImage2: size = array([1.5, 1.5])
+235.9778 	EXP 	trialImage2: image = <PIL.Image.Image image mode=LA size=1000x800 at 0x13733A70>
+235.9778 	EXP 	trialLeftText: text = 'Male'
+235.9778 	EXP 	trialRightText: text = 'Female'
+235.9778 	EXP 	TrialScreen: autoDraw = True
+235.9778 	EXP 	trialImage1: autoDraw = True
+235.9778 	EXP 	trialImage2: autoDraw = True
+235.9778 	EXP 	trialLeftText: autoDraw = True
+235.9778 	EXP 	trialRightText: autoDraw = True
+236.9378 	EXP 	TrialScreen: autoDraw = False
+236.9378 	EXP 	trialImage1: autoDraw = False
+236.9378 	EXP 	trialImage2: autoDraw = False
+236.9378 	EXP 	trialLeftText: autoDraw = False
+236.9378 	EXP 	trialRightText: autoDraw = False
+236.9378 	EXP 	TrialScreen: autoDraw = False
+236.9378 	EXP 	trialImage1: autoDraw = False
+236.9378 	EXP 	trialImage2: autoDraw = False
+236.9378 	EXP 	trialLeftText: autoDraw = False
+236.9378 	EXP 	trialRightText: autoDraw = False
+236.9378 	EXP 	whiteScreen_2: size = array([1.5, 1.5])
+236.9378 	EXP 	interTrialText: text = '+'
+236.9378 	EXP 	interTrialScreen: autoDraw = True
+236.9378 	EXP 	whiteScreen_2: autoDraw = True
+236.9378 	EXP 	interTrialText: autoDraw = True
+239.1587 	EXP 	New trial (rep=7, index=0): None
+239.2124 	EXP 	interTrialScreen: autoDraw = False
+239.2124 	EXP 	whiteScreen_2: autoDraw = False
+239.2124 	EXP 	interTrialText: autoDraw = False
+239.2124 	EXP 	interTrialScreen: autoDraw = False
+239.2124 	EXP 	whiteScreen_2: autoDraw = False
+239.2124 	EXP 	interTrialText: autoDraw = False
+239.2124 	EXP 	trialImage1: color = 'white (named)'
+239.2124 	EXP 	trialImage1: opacity = 1.0
+239.2124 	EXP 	trialImage1: size = array([1.5, 1.5])
+239.2124 	EXP 	trialImage1: image = <PIL.Image.Image image mode=LA size=1000x800 at 0x13733850>
+239.2124 	EXP 	trialImage2: size = array([1.5, 1.5])
+239.2124 	EXP 	trialImage2: image = <PIL.Image.Image image mode=LA size=1000x800 at 0x13733810>
+239.2124 	EXP 	trialLeftText: text = 'Male'
+239.2124 	EXP 	trialRightText: text = 'Female'
+239.2124 	EXP 	TrialScreen: autoDraw = True
+239.2124 	EXP 	trialImage1: autoDraw = True
+239.2124 	EXP 	trialImage2: autoDraw = True
+239.2124 	EXP 	trialLeftText: autoDraw = True
+239.2124 	EXP 	trialRightText: autoDraw = True
+240.1756 	EXP 	TrialScreen: autoDraw = False
+240.1756 	EXP 	trialImage1: autoDraw = False
+240.1756 	EXP 	trialImage2: autoDraw = False
+240.1756 	EXP 	trialLeftText: autoDraw = False
+240.1756 	EXP 	trialRightText: autoDraw = False
+240.1756 	EXP 	TrialScreen: autoDraw = False
+240.1756 	EXP 	trialImage1: autoDraw = False
+240.1756 	EXP 	trialImage2: autoDraw = False
+240.1756 	EXP 	trialLeftText: autoDraw = False
+240.1756 	EXP 	trialRightText: autoDraw = False
+240.1756 	EXP 	whiteScreen_2: size = array([1.5, 1.5])
+240.1756 	EXP 	interTrialText: text = '+'
+240.1756 	EXP 	interTrialScreen: autoDraw = True
+240.1756 	EXP 	whiteScreen_2: autoDraw = True
+240.1756 	EXP 	interTrialText: autoDraw = True
+242.5455 	EXP 	New trial (rep=8, index=0): None
+242.5970 	EXP 	interTrialScreen: autoDraw = False
+242.5970 	EXP 	whiteScreen_2: autoDraw = False
+242.5970 	EXP 	interTrialText: autoDraw = False
+242.5970 	EXP 	interTrialScreen: autoDraw = False
+242.5970 	EXP 	whiteScreen_2: autoDraw = False
+242.5970 	EXP 	interTrialText: autoDraw = False
+242.5970 	EXP 	trialImage1: color = 'white (named)'
+242.5970 	EXP 	trialImage1: opacity = 1.0
+242.5970 	EXP 	trialImage1: size = array([1.5, 1.5])
+242.5970 	EXP 	trialImage1: image = <PIL.Image.Image image mode=LA size=1000x800 at 0x13733770>
+242.5970 	EXP 	trialImage2: size = array([1.5, 1.5])
+242.5970 	EXP 	trialImage2: image = <PIL.Image.Image image mode=LA size=1000x800 at 0x13733D10>
+242.5970 	EXP 	trialLeftText: text = 'Male'
+242.5970 	EXP 	trialRightText: text = 'Female'
+242.5970 	EXP 	TrialScreen: autoDraw = True
+242.5970 	EXP 	trialImage1: autoDraw = True
+242.5970 	EXP 	trialImage2: autoDraw = True
+242.5970 	EXP 	trialLeftText: autoDraw = True
+242.5970 	EXP 	trialRightText: autoDraw = True
+243.5618 	EXP 	TrialScreen: autoDraw = False
+243.5618 	EXP 	trialImage1: autoDraw = False
+243.5618 	EXP 	trialImage2: autoDraw = False
+243.5618 	EXP 	trialLeftText: autoDraw = False
+243.5618 	EXP 	trialRightText: autoDraw = False
+243.5618 	EXP 	TrialScreen: autoDraw = False
+243.5618 	EXP 	trialImage1: autoDraw = False
+243.5618 	EXP 	trialImage2: autoDraw = False
+243.5618 	EXP 	trialLeftText: autoDraw = False
+243.5618 	EXP 	trialRightText: autoDraw = False
+243.5618 	EXP 	whiteScreen_2: size = array([1.5, 1.5])
+243.5618 	EXP 	interTrialText: text = '+'
+243.5618 	EXP 	interTrialScreen: autoDraw = True
+243.5618 	EXP 	whiteScreen_2: autoDraw = True
+243.5618 	EXP 	interTrialText: autoDraw = True
+245.0142 	DATA 	Keypress: escape
+245.1415 	EXP 	window1: mouseVisible = True
