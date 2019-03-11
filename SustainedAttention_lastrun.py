@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v3.0.1),
-    on March 08, 2019, at 15:34
+    on March 11, 2019, at 15:09
 If you publish work using this script please cite the PsychoPy publications:
     Peirce, JW (2007) PsychoPy - Psychophysics software in Python.
         Journal of Neuroscience Methods, 162(1-2), 8-13.
@@ -96,11 +96,10 @@ Labrecorder = '.\lib\LabRecorder\LabRecorderCLI.exe'
 Dataset='.\Dataset'
 
 # Open LabRecorder
-import subprocess, sys, os
+import subprocess, sys, os, winpexpect, time
 #os.system("start /B start cmd.exe @cmd /k .\lib\LabRecorder\LabRecorderCLI.exe .\Dataset\'currentTime'.xdf 'type=EEG'")
-os.system("start /B start cmd.exe @cmd /k %s %s\%s_%s 'type=EEG'" % (Labrecorder, Dataset, currentTime,subjectID))
-
-
+#os.system("start /B start cmd.exe @cmd /k %s %s\%s_%s 'type=EEG'" % (Labrecorder, Dataset, currentTime,subjectID))
+child =  winpexpect.winspawn('%s %s\%s_%s \'name="Keyboard"\'' % (Labrecorder,Dataset,currentTime,subjectID))
 
 
 
@@ -292,6 +291,7 @@ text = visual.TextStim(win=win, name='text',
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-1.0);
+
 
 # Create some handy timers
 globalClock = core.Clock()  # to track the time since experiment started
@@ -1163,6 +1163,8 @@ frameN = -1
 continueRoutine = True
 routineTimer.add(2.000000)
 # update component parameters for each repeat
+# Send trial onset marker to LSL
+outlet.push_sample('e')
 # keep track of which components have finished
 endComponents = [polygon_2, text]
 for thisComponent in endComponents:
@@ -1196,6 +1198,7 @@ while continueRoutine and routineTimer.getTime() > 0:
     if text.status == STARTED and t >= frameRemains:
         text.setAutoDraw(False)
     
+    
     # check for quit (typically the Esc key)
     if endExpNow or event.getKeys(keyList=["escape"]):
         core.quit()
@@ -1217,6 +1220,8 @@ while continueRoutine and routineTimer.getTime() > 0:
 for thisComponent in endComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
+child.sendline('\r')
+
 
 
 

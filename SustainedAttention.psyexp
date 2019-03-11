@@ -90,6 +90,20 @@
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
+      <CodeComponent name="code_4">
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="# Send trial onset marker to LSL&amp;#10;outlet.push_sample('e')" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="child.sendline('\r')" valType="extendedCode"/>
+        <Param name="name" updates="None" val="code_4" valType="code"/>
+      </CodeComponent>
     </Routine>
     <Routine name="description">
       <PolygonComponent name="polygon">
@@ -237,7 +251,7 @@
     </Routine>
     <Routine name="init">
       <CodeComponent name="InitCode">
-        <Param name="Begin Experiment" updates="constant" val="# Add random and excel library&amp;#10;import random, xlrd, os, sys&amp;#10;from PIL import Image&amp;#10;&amp;#10;#sys.path.append('./lib/')&amp;#10;&amp;#10;# Open LabRecorder&amp;#10;#os.startfile(&quot;.\lib\LabRecorder\LabRecorder.exe&quot;)&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;# Add lsl keypress markers&amp;#10;from pylsl import StreamInfo, StreamOutlet&amp;#10;info = StreamInfo(name='Keyboard', type='Markers', channel_count=1,&amp;#10;                  channel_format='string', source_id='Keyboard')&amp;#10;# Initialize the keyboard stream.&amp;#10;outlet = StreamOutlet(info)&amp;#10;&amp;#10;&amp;#10;&amp;#10;currentTime = expInfo['date']&amp;#10;subjectID = expInfo['participant']&amp;#10;Labrecorder = '.\lib\LabRecorder\LabRecorderCLI.exe'&amp;#10;Dataset='.\Dataset'&amp;#10;&amp;#10;# Open LabRecorder&amp;#10;import subprocess, sys, os&amp;#10;#os.system(&quot;start /B start cmd.exe @cmd /k .\lib\LabRecorder\LabRecorderCLI.exe .\Dataset\'currentTime'.xdf 'type=EEG'&quot;)&amp;#10;os.system(&quot;start /B start cmd.exe @cmd /k %s %s\%s_%s 'type=EEG'&quot; % (Labrecorder, Dataset, currentTime,subjectID))&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;# Fix random seed&amp;#10;random.seed()&amp;#10;&amp;#10;# Read stimuli excel file&amp;#10;infile = './listStim.xlsx'&amp;#10;&amp;#10;# Number of stimuli and number of blocks&amp;#10;num_trials = 10&amp;#10;num_blocks = 8&amp;#10;&amp;#10;trialCounter=0&amp;#10;blockCounter=0&amp;#10;&amp;#10;# Duration of a trial&amp;#10;trialDuration = 1&amp;#10;&amp;#10;&amp;#10;# Size of picture&amp;#10;pictureSize=[1.5,1.5]&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="# Add random and excel library&amp;#10;import random, xlrd, os, sys&amp;#10;from PIL import Image&amp;#10;&amp;#10;#sys.path.append('./lib/')&amp;#10;&amp;#10;# Open LabRecorder&amp;#10;#os.startfile(&quot;.\lib\LabRecorder\LabRecorder.exe&quot;)&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;# Add lsl keypress markers&amp;#10;from pylsl import StreamInfo, StreamOutlet&amp;#10;info = StreamInfo(name='Keyboard', type='Markers', channel_count=1,&amp;#10;                  channel_format='string', source_id='Keyboard')&amp;#10;# Initialize the keyboard stream.&amp;#10;outlet = StreamOutlet(info)&amp;#10;&amp;#10;&amp;#10;&amp;#10;currentTime = expInfo['date']&amp;#10;subjectID = expInfo['participant']&amp;#10;Labrecorder = '.\lib\LabRecorder\LabRecorderCLI.exe'&amp;#10;Dataset='.\Dataset'&amp;#10;&amp;#10;# Open LabRecorder&amp;#10;import subprocess, sys, os, winpexpect, time&amp;#10;#os.system(&quot;start /B start cmd.exe @cmd /k .\lib\LabRecorder\LabRecorderCLI.exe .\Dataset\'currentTime'.xdf 'type=EEG'&quot;)&amp;#10;#os.system(&quot;start /B start cmd.exe @cmd /k %s %s\%s_%s 'type=EEG'&quot; % (Labrecorder, Dataset, currentTime,subjectID))&amp;#10;child =  winpexpect.winspawn('%s %s\%s_%s \'name=&quot;Keyboard&quot;\'' % (Labrecorder,Dataset,currentTime,subjectID))&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;# Fix random seed&amp;#10;random.seed()&amp;#10;&amp;#10;# Read stimuli excel file&amp;#10;infile = './listStim.xlsx'&amp;#10;&amp;#10;# Number of stimuli and number of blocks&amp;#10;num_trials = 10&amp;#10;num_blocks = 8&amp;#10;&amp;#10;trialCounter=0&amp;#10;blockCounter=0&amp;#10;&amp;#10;# Duration of a trial&amp;#10;trialDuration = 1&amp;#10;&amp;#10;&amp;#10;# Size of picture&amp;#10;pictureSize=[1.5,1.5]&amp;#10;" valType="extendedCode"/>
         <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
@@ -453,7 +467,7 @@
         <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Begin Routine" updates="constant" val="# Send experiment onset marker to LSL&amp;#10;outlet.push_sample('S')&amp;#10;&amp;#10;# print marker&amp;#10;print('S')" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="# Send experiment onset marker to LSL&amp;#10;outlet.push_sample('S')&amp;#10;" valType="extendedCode"/>
         <Param name="Code Type" updates="None" val="Py" valType="str"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
