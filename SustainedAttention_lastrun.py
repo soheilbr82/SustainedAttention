@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v3.0.1),
-    on March 11, 2019, at 15:09
+    on March 12, 2019, at 16:36
 If you publish work using this script please cite the PsychoPy publications:
     Peirce, JW (2007) PsychoPy - Psychophysics software in Python.
         Journal of Neuroscience Methods, 162(1-2), 8-13.
@@ -526,8 +526,6 @@ routineTimer.add(3.000000)
 # Send experiment onset marker to LSL
 outlet.push_sample('S')
 
-# print marker
-print('S')
 # keep track of which components have finished
 startWait3000Components = [preTrialScreen, preTrialText]
 for thisComponent in startWait3000Components:
