@@ -50,7 +50,6 @@ The setup presented a pseudo-random sequence of stimuli to the participants. The
 ```windows
 C:\Program Files (x86)\PsychoPy3>python -m pip install xlrd
 ```
-s
 
 ## Recording File Format
 LabRecorder record into the XDF file format (Extensible Data Format, hosted at https://github.com/sccn/xdf). XDF was designed concurrently with the lab streaming layer and supports the full feature set of LSL (including multi-stream container files, per-stream arbitrarily large XML headers, all sample formats as well as time-synchronization information).
